@@ -1,0 +1,13 @@
+prefix=E:/TMachineLearning/DataAnalytics_JB/python/venv/Library
+exec_prefix=E:/TMachineLearning/DataAnalytics_JB/python/venv/Library
+libdir=E:/TMachineLearning/DataAnalytics_JB/python/venv/Library/lib
+sharedlibdir=E:/TMachineLearning/DataAnalytics_JB/python/venv/Library/lib
+includedir=E:/TMachineLearning/DataAnalytics_JB/python/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

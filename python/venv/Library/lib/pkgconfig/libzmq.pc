@@ -1,0 +1,12 @@
+prefix=e:/TMachineLearning/DataAnalytics_JB/python/venv/Library
+exec_prefix=e:/TMachineLearning/DataAnalytics_JB/python/venv/Library
+libdir=e:/TMachineLearning/DataAnalytics_JB/python/venv/Library/lib
+includedir=e:/TMachineLearning/DataAnalytics_JB/python/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
