@@ -79,7 +79,7 @@ where DR = 2
 select salary as [2nd Lowest salary] from
 (select *, DENSE_RANK() over(order by salary asc) [DR] from Employees) x
 where DR = 2
-
+-
 -----------------------------------------------------------------------
 -----------------------------------------------------------------------
 
